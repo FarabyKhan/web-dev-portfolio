@@ -19,6 +19,9 @@ nav{
     justify-content:space-between ;
     margin: 50px 200px;
 }
+.dark-1{
+    text-decoration: none;
+}
 /* shared style */
 .text-center{
     text-align: center;
@@ -166,4 +169,29 @@ font-size: 16px;
 }
 .resume-download-cv{
     margin-top: 50px;
+}
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+     display: flex;
+     gap: 117px;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-column{
+ width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 18px  20px;
+    margin-bottom: 24px;
+    border:none;
+    font-size: 16px;
 }
