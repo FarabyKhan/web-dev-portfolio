@@ -19,7 +19,8 @@ nav{
     justify-content:space-between ;
     margin: 50px 200px;
 }
-.dark-1{
+.dark{
+    
     text-decoration: none;
 }
 /* shared style */
